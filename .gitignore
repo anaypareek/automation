@@ -2,3 +2,4 @@ vendor/
 *.log
 error_log
 application/log/
+application/logs/
