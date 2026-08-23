@@ -1,0 +1,17 @@
+order place response
+
+{"s": "ok", "code": 1101, "message": "Order Submitted Successfully. Your Order Ref. No.2221101204092", "id": "2221101204092"}
+
+
+
+order details by order id
+
+{"s": "ok", "code": 200, "message": "", "orderBook": [{"orderDateTime": "01-Nov-2022 11:29:45", "id": "2221101204092", "exchOrdId": "0", "side": 1, "segment": 11, "instrument": 14, "productType": "INTRADAY", "status": 4, "qty": 100, "remainingQuantity": 100, "filledQty": 0, "limitPrice": 0.0, "stopPrice": 0.0, "type": 2, "discloseQty": 0, "dqQtyRem": 0, "orderValidity": "IOC", "Source": "ITS", "exchange": 10, "slNo": 1, "fyToken": "101122111048283", "offlineOrder": false, "message": "Success", "orderNumStatus": "2221101204092:4", "tradedPrice": 0.0, "symbol": "NSE:NIFTY22N1018000PE", "ch": -53.55, "chp": -31.47, "lp": 116.6, "ex_sym": "NIFTY", "description": "22 Nov 10 18000 PE"}]}
+
+all orders details
+
+{"s": "ok", "code": 200, "message": "", "orderBook": [{"orderDateTime": "01-Nov-2022 11:29:45", "id": "2221101204092", "exchOrdId": "0", "side": 1, "segment": 11, "instrument": 14, "productType": "INTRADAY", "status": 4, "qty": 100, "remainingQuantity": 100, "filledQty": 0, "limitPrice": 0.0, "stopPrice": 0.0, "type": 2, "discloseQty": 0, "dqQtyRem": 0, "orderValidity": "IOC", "source": "ITS", "slNo": 1, "fyToken": "101122111048283", "offlineOrder": false, "message": "Success", "orderNumStatus": "2221101204092:4", "tradedPrice": 0.0, "exchange": 10, "pan": "DDUPP2851J", "clientId": "XA33665", "symbol": "NSE:NIFTY22N1018000PE", "ch": -53.15, "chp": -31.24, "lp": 117.0, "ex_sym": "NIFTY", "description": "22 Nov 10 18000 PE"}]}
+
+all positions details
+
+{"s": "error", "code": -398, "message": "Looks like you have no open positions."}
